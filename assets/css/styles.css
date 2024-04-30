@@ -380,7 +380,7 @@ img {
 
 
 /* ===== MEDIA QUERIES=====*/
-@media screen and (max-width: 320px) {
+
 @media screen and (min-width: 375px) {
   .home {
       position: relative;
@@ -416,7 +416,7 @@ img {
   .button:hover {
     box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
   }
-}
+
 
 @media screen and (min-width: 576px) {
   .home {
