@@ -381,13 +381,43 @@ img {
 
 /* ===== MEDIA QUERIES=====*/
 @media screen and (max-width: 320px) {
+@media screen and (min-width: 375px) {
   .home {
-    row-gap: 2rem;
+      position: relative;
+  row-gap: 4rem;
+  padding: 4rem 0 5rem;
   }
   .home__img {
     width: 200px;
+    top: 1%;
+  }
+  .home__social {
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .home__social-icon {
+  
+    margin-bottom: 0;
+  
+  }
+  .home__social-icon:hover {
+    color: var(--first-color);
+  }
+  .button {
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #fff;
+    padding: 1rem 1rem;
+    font-weight: var(--font-semi);
+    border-radius: 0.5rem;
+    transition: 0.3s;
+  }
+  .button:hover {
+    box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
   }
 }
+
 @media screen and (min-width: 576px) {
   .home {
     padding: 4rem 0 2rem;
