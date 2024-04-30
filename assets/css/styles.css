@@ -170,7 +170,7 @@ img {
 /*===== HOME =====*/
 .home {
   position: relative;
-  row-gap: 2rem;
+  row-gap: 5rem;
   padding: 4rem 0 5rem;
 }
 .home__data {
@@ -341,7 +341,7 @@ img {
   width: 65%;
   
 }
-.skills__programing {
+.skills__programming {
   width: 30%;
 }
 .skills__O365 {
