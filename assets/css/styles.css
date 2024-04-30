@@ -181,7 +181,7 @@ img {
 /*===== HOME =====*/
 .home {
   position: relative;
-  row-gap: 5rem;
+  row-gap: 2rem;
   padding: 4rem 0 5rem;
 }
 .home__data {
@@ -214,12 +214,15 @@ img {
   width: 260px;
   top: 15%;
 }
+
 .home__blob {
   fill: var(--first-color);
 }
 .home__blob-img {
   width: 400px;
 }
+
+
 
 /*BUTTONS*/
 .button {
@@ -380,7 +383,6 @@ img {
 
 
 /* ===== MEDIA QUERIES=====*/
-
 @media screen and (min-width: 375px) {
   .home {
       position: relative;
@@ -416,6 +418,7 @@ img {
   .button:hover {
     box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
   }
+}
 
 
 @media screen and (min-width: 576px) {
@@ -452,8 +455,8 @@ img {
     padding-top: 2rem;
   }
   .contact__form {
-    width: 360px;
-    padding-top: 2rem;
+    width: 30px;
+    padding-top: 4rem;
   }
   .contact__container {
     justify-items: center;
