@@ -383,7 +383,7 @@ img {
 
 
 /* ===== MEDIA QUERIES=====*/
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 413px) {
   .home {
       position: relative;
   row-gap: 4rem;
