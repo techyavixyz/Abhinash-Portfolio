@@ -224,4 +224,24 @@ position: relative;
       grid-template-columns: repeat(3, 1fr);
       column-gap: 2rem;
     }
+          .contact__input {
+        width: 1000%; 
+        font-size: var(--normal-font-size);
+        font-weight: 20px;
+        padding: 0rem;
+        border-radius: 0.5rem;
+        border: 1.5px solid var(--second-color);
+        outline: none;
+        margin-bottom: var(--mb-4);
+      }
+    .contact__button {
+        display:  block;
+        height: 20px;
+        margin-left: auto;
+        width: 50px;
+        margin-bottom: var(--mb-2);
+
+
+      }
+  }
   }
